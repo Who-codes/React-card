@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0%;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: #393d47;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 300px;
+  background-color: #23252c;
+  color: #fff;
+}
+
+.info,
+.info-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-section {
+  align-items: center;
+  gap: 8px;
+}
+
+.img {
+  background: url("./images/cover-pic.png");
+  background-position: center 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 2em;
+  height: 40vh;
+  background-color: #ccc;
+}
+
+.name {
+  font-size: 25px;
+}
+
+.work {
+  font-size: 13px;
+  color: #f3bf99;
+  font-weight: normal;
+}
+
+.website {
+  font-size: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.email,
+.linkdin {
+  width: 115px;
+  border-radius: 6px;
+  padding: 9px 13px 9px 11px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.email {
+  background-color: #d1d5db;
+  color: #374151;
+}
+
+.linkdin {
+  background-color: #5093e2;
+  color: inherit;
+}
+
+.about {
+  padding: 1.25em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.about-title,
+.intrests-title {
+  font-size: 16px;
+}
+
+.about-brief,
+.intrests-brief {
+  color: #dcdcdc;
+  font-size: 10px;
+}
+
+footer {
+  background-color: #161619;
+  padding: 0.5em 2em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
